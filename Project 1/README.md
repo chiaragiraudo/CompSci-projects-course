@@ -9,3 +9,11 @@ Description of the files in the directory "Codes":
 2) P1_main.ipynb ---> Jupyter notebook for the linear regression analysis of Franke function
 3) Gradient_Descent.ipynb --->  Jupyter notebook for the optimization method analysis of a third degree polynomial function 
 4) Classification.ipynb ---> Jupyter notebook for the binary classification analysis of Wisconsin Breast Cancer data. 
+
+The project authors are: 
+Claudia Fabris (a), Chiara Giraudo (b), Agnieszka Seremak (a),Ana Anzulović (c)
+
+Affiliations:
+(a) Department of Chemistry, University of Oslo, Norway
+(b) Department of Mathematics, University of Oslo, Norway
+(c) Department of Geosciences, University of Oslo, Norway.
