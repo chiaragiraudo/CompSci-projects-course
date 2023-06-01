@@ -25,10 +25,11 @@ and assume that $\alpha$ remains constant within each subdomain. Moreover, we en
 
 FEM --> Python: version 3.7.12 \\
         FEniCS: version 2019.1.0 \\
-        Numpy: version 1.21.6 \\
+        Numpy: version 1.21.6 
 
-
-PINNs -->
+PINNs --> Python: version 3.5.5 \\
+          TensorFlow: version 1.3.0 \\
+          Numpy: version 1.11.3
 
 FNO -->
 
