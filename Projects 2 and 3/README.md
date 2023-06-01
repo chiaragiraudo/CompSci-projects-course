@@ -23,13 +23,10 @@ and assume that $\alpha$ remains constant within each subdomain. Moreover, we en
 
 -Package versions:
 
+FEM --> Python: version 3.7.12 \\
+        FEniCS: version 2019.1.0 \\
+        Numpy: version 1.21.6 \\
 
-FEM --> Python: version 3.7.12
-
-        FEniCS: version 2019.1.0 
-
-        Numpy: version 1.21.6
-        
 
 PINNs -->
 
