@@ -10,7 +10,7 @@ $$ u(x,y) = 0 \quad \text{on } \partial \Omega = \partial \left(0,1 \right)^2.$$
 
 Here, $\alpha \in L^{\infty} \left( (0,1)^2 ; \mathbb{R}_{+} \right)$ is the diffusion coefficient, and $s \in L^2\left( (0,1)^2 ; \mathbb{R}  \right)$ is the forcing function. We aim to find an approximate solution to the differential problem for different values of the diffusion coefficient, using two different methods: the Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs). For this methods, we obtain an approximation of the solution by solving a single instance of the PDE for different values of $\alpha$.
 
-For the purpose of this study, we fix the forcing function to $f=1$ and select the diffusion coefficients $\alpha$ from a distribution of piecewise constant functions. In particular, we divide the domain into four equal subdomains
+For the purpose of this study, we fix the forcing function to $s=1$ and select the diffusion coefficients $\alpha$ from a distribution of piecewise constant functions. In particular, we divide the domain into four equal subdomains
 
                                     -------------.-------------
                                    |  $\Omega_2$ |  $\Omega_3$ |
