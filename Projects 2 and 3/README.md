@@ -8,7 +8,7 @@ with homogeneous Dirichlet boundary conditions, i.e.
 
 $$ u(x,y) = 0 \quad \text{on } \partial \Omega = \partial \left(0,1 \right)^2.$$
 
-Here, $\alpha \in L^{\infty} \left( (0,1)^2 ; \mathbb{R}_{+} \right)$ is the diffusion coefficient, and $s \in L^2\left( (0,1)^2 ; \mathbb{R}  \right)$ is the forcing function. We aim to find an approximate solution to problem \eqref{eq: Darcy problem} for different values of the diffusion coefficient, using three different methods: the Finite Element Method (FEM), Physics-Informed Neural Networks (PINNs), and Fourier Neural Operator. In the first two methods, we obtain an approximation of the solution by solving a single instance of the PDE for different values of $a$, while the Fourier Neural Operator learns an entire family of PDEs.
+Here, $\alpha \in L^{\infty} \left( (0,1)^2 ; \mathbb{R}_{+} \right)$ is the diffusion coefficient, and $s \in L^2\left( (0,1)^2 ; \mathbb{R}  \right)$ is the forcing function. We aim to find an approximate solution to problem \eqref{eq: Darcy problem} for different values of the diffusion coefficient, using two different methods: the Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs). For this methods, we obtain an approximation of the solution by solving a single instance of the PDE for different values of $\alpha$.
 
 For the purpose of this study, we fix the forcing function to $f=1$ and select the diffusion coefficients $\alpha$ from a distribution of piecewise constant functions. In particular, we divide the domain into four equal subdomains
 
@@ -18,7 +18,7 @@ For the purpose of this study, we fix the forcing function to $f=1$ and select t
                                    |  $\Omega_1$ |  $\Omega_4$ |
                                     -------------.-------------
                                    
-and assume that $\alpha$ remains constant within each subdomain. Moreover, we enforce the constraint $0 < \alpha < 10$ to further refine the parameter space. 
+and assume that $\alpha$ remains constant within each subdomain. Moreover, we enforce the constraint $0.1 < \alpha < 1$ to further refine the parameter space. 
 
 
 -Package versions:
@@ -30,6 +30,4 @@ FEM --> Python: version 3.7.12 \\
 PINNs --> Python: version 3.5.5 \\
           TensorFlow: version 1.3.0 \\
           Numpy: version 1.11.3
-
-FNO -->
 
